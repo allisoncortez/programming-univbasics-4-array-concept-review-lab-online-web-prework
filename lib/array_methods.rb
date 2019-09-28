@@ -5,6 +5,7 @@ while count < array.length do
     return count
   end
   count +=1
+end
 nil
 
 def find_max_value(array)
