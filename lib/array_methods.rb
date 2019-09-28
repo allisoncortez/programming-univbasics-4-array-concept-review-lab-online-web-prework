@@ -1,6 +1,6 @@
 def find_element_index(array, value_to_find)
   count = 0
-array.length.times do |count|
+while count < array.length do |count|
   if array[count] == value_to_find
     return count
     count +=1
